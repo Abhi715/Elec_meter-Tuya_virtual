@@ -1,0 +1,2163 @@
+[Running] python -u "f:\study and work\Embedded and IoT\Python\iot_test.py"
+{"date_time": "2022-11-09T23:57:53.065344", "data": [114]}
+[2022-11-09 23:57:53,126] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/token,                params = {'grant_type': 1},                body = None,                t = 1668018473126
+[2022-11-09 23:57:54,746] [tuya-openapi] Response: {
+  "result": {
+    "access_token": "***",
+    "expire_time": 7200,
+    "refresh_token": "***",
+    "uid": "***"
+  },
+  "success": true,
+  "t": 1668018476204,
+  "tid": "3b058f4d605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:57:54,746] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789,                params = None,                body = None,                t = 1668018474746
+[2022-11-09 23:57:55,898] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667821361,
+    "asset_id": "1552327524515859",
+    "category": "kg",
+    "category_name": "Switch",
+    "create_time": 1667821361,
+    "gateway_id": "",
+    "icon": "smart/icon/ay1554274150473hFGR1/e7dad6337d487be637f0b81cb0dc2d55.png",
+    "id": "vdevo166782136188789",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "CBU",
+    "name": "\u56fd\u6807\u4e00\u8def\u5f00\u5173\uff08\u89e6\u6478\uff09_Wi-Fi & Bluetooth LE-vdevo",
+    "online": true,
+    "product_id": "iuhozr9ciqbvswp8",
+    "product_name": "\u56fd\u6807\u4e00\u8def\u5f00\u5173\uff08\u89e6\u6478\uff09_Wi-Fi & Bluetooth LE",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667821361,
+    "uuid": "vdevo166782136188789"
+  },
+  "success": true,
+  "t": 1668018476955,
+  "tid": "3b1de710605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:57:55,965] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251,                params = None,                body = None,                t = 1668018475965
+[2022-11-09 23:57:56,294] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667821208,
+    "asset_id": "1552327524515859",
+    "category": "dj",
+    "category_name": "Light Source",
+    "create_time": 1667821208,
+    "gateway_id": "",
+    "icon": "smart/icon/ay1530625888062OnLeq/8849decc9496f5b66ce3eabc8a65c7a7.png",
+    "id": "vdevo166782120811251",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "DY.0785",
+    "name": "Smart BR30 Light-vdevo",
+    "online": true,
+    "product_id": "zmy2tgh7ei9v0tvw",
+    "product_name": "Smart BR30 Light",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667821208,
+    "uuid": "vdevo166782120811251"
+  },
+  "success": true,
+  "t": 1668018477768,
+  "tid": "3bd50267605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:57:56,294] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753,                params = None,                body = None,                t = 1668018476294
+[2022-11-09 23:57:56,555] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667924607,
+    "asset_id": "1552327524515859",
+    "category": "zndb",
+    "category_name": "Smart Electric Meter",
+    "create_time": 1667924607,
+    "gateway_id": "",
+    "icon": "smart/icon/bay1596778962224TATA/0c919bb493800c9bcf563aef7edd9ae4.png",
+    "id": "vdevo166792460706753",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "DAC7360C-CT",
+    "name": "XOCA-\u4e09\u76f8\u4e92\u611f\u5668\u5f0f\u5355\u8d39\u7387\u7535\u80fd\u8868-Zigbee-vdevo",
+    "online": true,
+    "product_id": "f3jpl06s",
+    "product_name": "XOCA-\u4e09\u76f8\u4e92\u611f\u5668\u5f0f\u5355\u8d39\u7387\u7535\u80fd\u8868-Zigbee",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667924607,
+    "uuid": "vdevo166792460706753"
+  },
+  "success": true,
+  "t": 1668018478038,
+  "tid": "3c04653b605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:57:56,555] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251/commands,                params = None,                body = {'commands': [{'code': 'switch_led', 'value': True}]},                t = 1668018476555
+[2022-11-09 23:57:56,729] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018478195,
+  "tid": "3c2f1565605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:57:56,729] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789/commands,                params = None,                body = {'commands': [{'code': 'switch_1', 'value': True}, {'code': 'bright_value_v2', 'value': 50}, {'code': 'countdown_1', 'value': 10000}]},                t = 1668018476729
+[2022-11-09 23:57:56,894] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018478371,
+  "tid": "3c4a9221605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:57:56,894] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753/commands,                params = None,                body = {'commands': [{'code': 'switch', 'value': True}]},                t = 1668018476894
+[2022-11-09 23:57:57,047] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018478537,
+  "tid": "3c653f10605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:57:57,047] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789/status,                params = None,                body = None,                t = 1668018477047
+[2022-11-09 23:57:57,195] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "switch_1",
+      "value": true
+    },
+    {
+      "code": "countdown_1",
+      "value": 10000
+    },
+    {
+      "code": "relay_status",
+      "value": "power_on"
+    },
+    {
+      "code": "light_mode",
+      "value": "relay"
+    },
+    {
+      "code": "cycle_time",
+      "value": ""
+    },
+    {
+      "code": "random_time",
+      "value": ""
+    }
+  ],
+  "success": true,
+  "t": 1668018478670,
+  "tid": "3c79d4e7605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:57:57,195] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251/status,                params = None,                body = None,                t = 1668018477195
+[2022-11-09 23:57:57,332] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "switch_led",
+      "value": true
+    },
+    {
+      "code": "work_mode",
+      "value": "white"
+    },
+    {
+      "code": "bright_value_v2",
+      "value": 299
+    },
+    {
+      "code": "temp_value_v2",
+      "value": 230
+    },
+    {
+      "code": "colour_data_v2",
+      "value": ""
+    },
+    {
+      "code": "scene_data_v2",
+      "value": ""
+    },
+    {
+      "code": "countdown_1",
+      "value": 38102
+    },
+    {
+      "code": "music_data",
+      "value": ""
+    },
+    {
+      "code": "control_data",
+      "value": ""
+    },
+    {
+      "code": "rhythm_mode",
+      "value": ""
+    },
+    {
+      "code": "sleep_mode",
+      "value": ""
+    },
+    {
+      "code": "wakeup_mode",
+      "value": ""
+    },
+    {
+      "code": "power_memory",
+      "value": ""
+    },
+    {
+      "code": "do_not_disturb",
+      "value": false
+    }
+  ],
+  "success": true,
+  "t": 1668018478809,
+  "tid": "3c90b587605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:57:57,332] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753/status,                params = None,                body = None,                t = 1668018477332
+[2022-11-09 23:57:57,461] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "forward_energy_total",
+      "value": 999999999
+    },
+    {
+      "code": "phase_a",
+      "value": ""
+    },
+    {
+      "code": "phase_b",
+      "value": ""
+    },
+    {
+      "code": "phase_c",
+      "value": ""
+    },
+    {
+      "code": "switch",
+      "value": true
+    },
+    {
+      "code": "meter_id",
+      "value": ""
+    }
+  ],
+  "success": true,
+  "t": 1668018478936,
+  "tid": "3ca49b45605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:57:57,461] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166782136188789,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018477461
+[2022-11-09 23:57:57,646] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018479108,
+  "tid": "3cb8679f605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:57:57,647] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166782120811251,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018477647
+[2022-11-09 23:57:57,762] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018479237,
+  "tid": "3cd26363605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:57:57,763] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166792460706753,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018477763
+[2022-11-09 23:57:57,895] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018479371,
+  "tid": "3ce560ff605c11ed9d06f6d568c328b4"
+}
+{"date_time": "2022-11-09T23:58:08.059609", "data": [28]}
+[2022-11-09 23:58:08,063] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/token,                params = {'grant_type': 1},                body = None,                t = 1668018488063
+[2022-11-09 23:58:08,709] [tuya-openapi] Response: {
+  "result": {
+    "access_token": "***",
+    "expire_time": 7186,
+    "refresh_token": "***",
+    "uid": "***"
+  },
+  "success": true,
+  "t": 1668018490182,
+  "tid": "435ca539605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:08,710] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789,                params = None,                body = None,                t = 1668018488710
+[2022-11-09 23:58:08,995] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667821361,
+    "asset_id": "1552327524515859",
+    "category": "kg",
+    "category_name": "Switch",
+    "create_time": 1667821361,
+    "gateway_id": "",
+    "icon": "smart/icon/ay1554274150473hFGR1/e7dad6337d487be637f0b81cb0dc2d55.png",
+    "id": "vdevo166782136188789",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "CBU",
+    "name": "\u56fd\u6807\u4e00\u8def\u5f00\u5173\uff08\u89e6\u6478\uff09_Wi-Fi & Bluetooth LE-vdevo",
+    "online": true,
+    "product_id": "iuhozr9ciqbvswp8",
+    "product_name": "\u56fd\u6807\u4e00\u8def\u5f00\u5173\uff08\u89e6\u6478\uff09_Wi-Fi & Bluetooth LE",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667821361,
+    "uuid": "vdevo166782136188789"
+  },
+  "success": true,
+  "t": 1668018490471,
+  "tid": "436d0707605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:08,995] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251,                params = None,                body = None,                t = 1668018488995
+[2022-11-09 23:58:09,211] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667821208,
+    "asset_id": "1552327524515859",
+    "category": "dj",
+    "category_name": "Light Source",
+    "create_time": 1667821208,
+    "gateway_id": "",
+    "icon": "smart/icon/ay1530625888062OnLeq/8849decc9496f5b66ce3eabc8a65c7a7.png",
+    "id": "vdevo166782120811251",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "DY.0785",
+    "name": "Smart BR30 Light-vdevo",
+    "online": true,
+    "product_id": "zmy2tgh7ei9v0tvw",
+    "product_name": "Smart BR30 Light",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667821208,
+    "uuid": "vdevo166782120811251"
+  },
+  "success": true,
+  "t": 1668018490635,
+  "tid": "4397b7c8605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:09,211] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753,                params = None,                body = None,                t = 1668018489211
+[2022-11-09 23:58:09,393] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667924607,
+    "asset_id": "1552327524515859",
+    "category": "zndb",
+    "category_name": "Smart Electric Meter",
+    "create_time": 1667924607,
+    "gateway_id": "",
+    "icon": "smart/icon/bay1596778962224TATA/0c919bb493800c9bcf563aef7edd9ae4.png",
+    "id": "vdevo166792460706753",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "DAC7360C-CT",
+    "name": "XOCA-\u4e09\u76f8\u4e92\u611f\u5668\u5f0f\u5355\u8d39\u7387\u7535\u80fd\u8868-Zigbee-vdevo",
+    "online": true,
+    "product_id": "f3jpl06s",
+    "product_name": "XOCA-\u4e09\u76f8\u4e92\u611f\u5668\u5f0f\u5355\u8d39\u7387\u7535\u80fd\u8868-Zigbee",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667924607,
+    "uuid": "vdevo166792460706753"
+  },
+  "success": true,
+  "t": 1668018490863,
+  "tid": "43bad8d5605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:09,395] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251/commands,                params = None,                body = {'commands': [{'code': 'switch_led', 'value': True}]},                t = 1668018489395
+[2022-11-09 23:58:09,563] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018491040,
+  "tid": "43d95643605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:09,563] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789/commands,                params = None,                body = {'commands': [{'code': 'switch_1', 'value': True}, {'code': 'bright_value_v2', 'value': 50}, {'code': 'countdown_1', 'value': 10000}]},                t = 1668018489563
+[2022-11-09 23:58:09,688] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018491163,
+  "tid": "43ed3141605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:09,688] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753/commands,                params = None,                body = {'commands': [{'code': 'switch', 'value': True}]},                t = 1668018489688
+[2022-11-09 23:58:09,824] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018491301,
+  "tid": "44029243605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:09,824] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789/status,                params = None,                body = None,                t = 1668018489824
+[2022-11-09 23:58:09,966] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "switch_1",
+      "value": true
+    },
+    {
+      "code": "countdown_1",
+      "value": 10000
+    },
+    {
+      "code": "relay_status",
+      "value": "power_on"
+    },
+    {
+      "code": "light_mode",
+      "value": "relay"
+    },
+    {
+      "code": "cycle_time",
+      "value": ""
+    },
+    {
+      "code": "random_time",
+      "value": ""
+    }
+  ],
+  "success": true,
+  "t": 1668018491441,
+  "tid": "44166175605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:09,967] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251/status,                params = None,                body = None,                t = 1668018489967
+[2022-11-09 23:58:10,099] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "switch_led",
+      "value": true
+    },
+    {
+      "code": "work_mode",
+      "value": "white"
+    },
+    {
+      "code": "bright_value_v2",
+      "value": 299
+    },
+    {
+      "code": "temp_value_v2",
+      "value": 230
+    },
+    {
+      "code": "colour_data_v2",
+      "value": ""
+    },
+    {
+      "code": "scene_data_v2",
+      "value": ""
+    },
+    {
+      "code": "countdown_1",
+      "value": 38102
+    },
+    {
+      "code": "music_data",
+      "value": ""
+    },
+    {
+      "code": "control_data",
+      "value": ""
+    },
+    {
+      "code": "rhythm_mode",
+      "value": ""
+    },
+    {
+      "code": "sleep_mode",
+      "value": ""
+    },
+    {
+      "code": "wakeup_mode",
+      "value": ""
+    },
+    {
+      "code": "power_memory",
+      "value": ""
+    },
+    {
+      "code": "do_not_disturb",
+      "value": false
+    }
+  ],
+  "success": true,
+  "t": 1668018491571,
+  "tid": "442c8a2d605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:10,100] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753/status,                params = None,                body = None,                t = 1668018490100
+[2022-11-09 23:58:10,235] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "forward_energy_total",
+      "value": 999999999
+    },
+    {
+      "code": "phase_a",
+      "value": ""
+    },
+    {
+      "code": "phase_b",
+      "value": ""
+    },
+    {
+      "code": "phase_c",
+      "value": ""
+    },
+    {
+      "code": "switch",
+      "value": true
+    },
+    {
+      "code": "meter_id",
+      "value": ""
+    }
+  ],
+  "success": true,
+  "t": 1668018491708,
+  "tid": "443fa24d605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:10,235] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166782136188789,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018490235
+[2022-11-09 23:58:10,340] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018491816,
+  "tid": "4454f532605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:10,341] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166782120811251,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018490341
+[2022-11-09 23:58:10,462] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018491925,
+  "tid": "4465b57e605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:10,462] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166792460706753,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018490462
+[2022-11-09 23:58:10,568] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018492044,
+  "tid": "44780f4c605c11edbbfd6abc89a7041d"
+}
+
+
+{"date_time": "2022-11-09T23:58:20.721744", "data": [189]}
+[2022-11-09 23:58:20,721] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/token,                params = {'grant_type': 1},                body = None,                t = 1668018500721
+[2022-11-09 23:58:21,120] [tuya-openapi] Response: {
+  "result": {
+    "access_token": "***",
+    "expire_time": 7174,
+    "refresh_token": "***",
+    "uid": "***"
+  },
+  "success": true,
+  "t": 1668018502589,
+  "tid": "4ac2038d605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:21,120] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789,                params = None,                body = None,                t = 1668018501120
+[2022-11-09 23:58:21,390] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667821361,
+    "asset_id": "1552327524515859",
+    "category": "kg",
+    "category_name": "Switch",
+    "create_time": 1667821361,
+    "gateway_id": "",
+    "icon": "smart/icon/ay1554274150473hFGR1/e7dad6337d487be637f0b81cb0dc2d55.png",
+    "id": "vdevo166782136188789",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "CBU",
+    "name": "\u56fd\u6807\u4e00\u8def\u5f00\u5173\uff08\u89e6\u6478\uff09_Wi-Fi & Bluetooth LE-vdevo",
+    "online": true,
+    "product_id": "iuhozr9ciqbvswp8",
+    "product_name": "\u56fd\u6807\u4e00\u8def\u5f00\u5173\uff08\u89e6\u6478\uff09_Wi-Fi & Bluetooth LE",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667821361,
+    "uuid": "vdevo166782136188789"
+  },
+  "success": true,
+  "t": 1668018502870,
+  "tid": "4ad2c492605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:21,390] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251,                params = None,                body = None,                t = 1668018501390
+[2022-11-09 23:58:21,563] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667821208,
+    "asset_id": "1552327524515859",
+    "category": "dj",
+    "category_name": "Light Source",
+    "create_time": 1667821208,
+    "gateway_id": "",
+    "icon": "smart/icon/ay1530625888062OnLeq/8849decc9496f5b66ce3eabc8a65c7a7.png",
+    "id": "vdevo166782120811251",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "DY.0785",
+    "name": "Smart BR30 Light-vdevo",
+    "online": true,
+    "product_id": "zmy2tgh7ei9v0tvw",
+    "product_name": "Smart BR30 Light",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667821208,
+    "uuid": "vdevo166782120811251"
+  },
+  "success": true,
+  "t": 1668018503041,
+  "tid": "4afd831b605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:21,563] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753,                params = None,                body = None,                t = 1668018501563
+[2022-11-09 23:58:21,739] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667924607,
+    "asset_id": "1552327524515859",
+    "category": "zndb",
+    "category_name": "Smart Electric Meter",
+    "create_time": 1667924607,
+    "gateway_id": "",
+    "icon": "smart/icon/bay1596778962224TATA/0c919bb493800c9bcf563aef7edd9ae4.png",
+    "id": "vdevo166792460706753",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "DAC7360C-CT",
+    "name": "XOCA-\u4e09\u76f8\u4e92\u611f\u5668\u5f0f\u5355\u8d39\u7387\u7535\u80fd\u8868-Zigbee-vdevo",
+    "online": true,
+    "product_id": "f3jpl06s",
+    "product_name": "XOCA-\u4e09\u76f8\u4e92\u611f\u5668\u5f0f\u5355\u8d39\u7387\u7535\u80fd\u8868-Zigbee",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667924607,
+    "uuid": "vdevo166792460706753"
+  },
+  "success": true,
+  "t": 1668018503213,
+  "tid": "4b177ce7605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:21,739] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251/commands,                params = None,                body = {'commands': [{'code': 'switch_led', 'value': True}]},                t = 1668018501739
+[2022-11-09 23:58:21,878] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018503353,
+  "tid": "4b316427605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:21,878] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789/commands,                params = None,                body = {'commands': [{'code': 'switch_1', 'value': True}, {'code': 'bright_value_v2', 'value': 50}, {'code': 'countdown_1', 'value': 10000}]},                t = 1668018501878
+[2022-11-09 23:58:22,044] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018503520,
+  "tid": "4b49d438605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:22,044] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753/commands,                params = None,                body = {'commands': [{'code': 'switch', 'value': True}]},                t = 1668018502044
+[2022-11-09 23:58:22,209] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018503683,
+  "tid": "4b6239e8605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:22,209] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789/status,                params = None,                body = None,                t = 1668018502209
+[2022-11-09 23:58:22,344] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "switch_1",
+      "value": true
+    },
+    {
+      "code": "countdown_1",
+      "value": 10000
+    },
+    {
+      "code": "relay_status",
+      "value": "power_on"
+    },
+    {
+      "code": "light_mode",
+      "value": "relay"
+    },
+    {
+      "code": "cycle_time",
+      "value": ""
+    },
+    {
+      "code": "random_time",
+      "value": ""
+    }
+  ],
+  "success": true,
+  "t": 1668018503820,
+  "tid": "4b791c24605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:22,344] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251/status,                params = None,                body = None,                t = 1668018502344
+[2022-11-09 23:58:22,480] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "switch_led",
+      "value": true
+    },
+    {
+      "code": "work_mode",
+      "value": "white"
+    },
+    {
+      "code": "bright_value_v2",
+      "value": 299
+    },
+    {
+      "code": "temp_value_v2",
+      "value": 230
+    },
+    {
+      "code": "colour_data_v2",
+      "value": ""
+    },
+    {
+      "code": "scene_data_v2",
+      "value": ""
+    },
+    {
+      "code": "countdown_1",
+      "value": 38102
+    },
+    {
+      "code": "music_data",
+      "value": ""
+    },
+    {
+      "code": "control_data",
+      "value": ""
+    },
+    {
+      "code": "rhythm_mode",
+      "value": ""
+    },
+    {
+      "code": "sleep_mode",
+      "value": ""
+    },
+    {
+      "code": "wakeup_mode",
+      "value": ""
+    },
+    {
+      "code": "power_memory",
+      "value": ""
+    },
+    {
+      "code": "do_not_disturb",
+      "value": false
+    }
+  ],
+  "success": true,
+  "t": 1668018503969,
+  "tid": "4b9005f3605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:22,480] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753/status,                params = None,                body = None,                t = 1668018502480
+[2022-11-09 23:58:22,613] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "forward_energy_total",
+      "value": 999999999
+    },
+    {
+      "code": "phase_a",
+      "value": ""
+    },
+    {
+      "code": "phase_b",
+      "value": ""
+    },
+    {
+      "code": "phase_c",
+      "value": ""
+    },
+    {
+      "code": "switch",
+      "value": true
+    },
+    {
+      "code": "meter_id",
+      "value": ""
+    }
+  ],
+  "success": true,
+  "t": 1668018504098,
+  "tid": "4ba3cf28605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:22,613] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166782136188789,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018502613
+[2022-11-09 23:58:22,728] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018504205,
+  "tid": "4bb7c00f605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:22,728] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166782120811251,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018502728
+[2022-11-09 23:58:22,830] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018504317,
+  "tid": "4bc87bdb605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:22,830] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166792460706753,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018502830
+[2022-11-09 23:58:22,947] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018504430,
+  "tid": "4bda0181605c11edbbfd6abc89a7041d"
+}
+{"date_time": "2022-11-09T23:58:33.097280", "data": [135]}
+{"date_time": "2022-11-09T23:58:45.394199", "data": [31]}
+[2022-11-09 23:58:33,101] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/token,                params = {'grant_type': 1},                body = None,                t = 1668018513101
+[2022-11-09 23:58:33,523] [tuya-openapi] Response: {
+  "result": {
+    "access_token": "***",
+    "expire_time": 7162,
+    "refresh_token": "***",
+    "uid": "***"
+  },
+  "success": true,
+  "t": 1668018514999,
+  "tid": "52277465605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:33,523] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789,                params = None,                body = None,                t = 1668018513523
+[2022-11-09 23:58:33,693] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667821361,
+    "asset_id": "1552327524515859",
+    "category": "kg",
+    "category_name": "Switch",
+    "create_time": 1667821361,
+    "gateway_id": "",
+    "icon": "smart/icon/ay1554274150473hFGR1/e7dad6337d487be637f0b81cb0dc2d55.png",
+    "id": "vdevo166782136188789",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "CBU",
+    "name": "\u56fd\u6807\u4e00\u8def\u5f00\u5173\uff08\u89e6\u6478\uff09_Wi-Fi & Bluetooth LE-vdevo",
+    "online": true,
+    "product_id": "iuhozr9ciqbvswp8",
+    "product_name": "\u56fd\u6807\u4e00\u8def\u5f00\u5173\uff08\u89e6\u6478\uff09_Wi-Fi & Bluetooth LE",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667821361,
+    "uuid": "vdevo166782136188789"
+  },
+  "success": true,
+  "t": 1668018515167,
+  "tid": "52377713605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:33,693] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251,                params = None,                body = None,                t = 1668018513693
+[2022-11-09 23:58:33,863] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667821208,
+    "asset_id": "1552327524515859",
+    "category": "dj",
+    "category_name": "Light Source",
+    "create_time": 1667821208,
+    "gateway_id": "",
+    "icon": "smart/icon/ay1530625888062OnLeq/8849decc9496f5b66ce3eabc8a65c7a7.png",
+    "id": "vdevo166782120811251",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "DY.0785",
+    "name": "Smart BR30 Light-vdevo",
+    "online": true,
+    "product_id": "zmy2tgh7ei9v0tvw",
+    "product_name": "Smart BR30 Light",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667821208,
+    "uuid": "vdevo166782120811251"
+  },
+  "success": true,
+  "t": 1668018515340,
+  "tid": "5252393b605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:33,863] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753,                params = None,                body = None,                t = 1668018513863
+[2022-11-09 23:58:34,034] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667924607,
+    "asset_id": "1552327524515859",
+    "category": "zndb",
+    "category_name": "Smart Electric Meter",
+    "create_time": 1667924607,
+    "gateway_id": "",
+    "icon": "smart/icon/bay1596778962224TATA/0c919bb493800c9bcf563aef7edd9ae4.png",
+    "id": "vdevo166792460706753",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "DAC7360C-CT",
+    "name": "XOCA-\u4e09\u76f8\u4e92\u611f\u5668\u5f0f\u5355\u8d39\u7387\u7535\u80fd\u8868-Zigbee-vdevo",
+    "online": true,
+    "product_id": "f3jpl06s",
+    "product_name": "XOCA-\u4e09\u76f8\u4e92\u611f\u5668\u5f0f\u5355\u8d39\u7387\u7535\u80fd\u8868-Zigbee",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667924607,
+    "uuid": "vdevo166792460706753"
+  },
+  "success": true,
+  "t": 1668018515504,
+  "tid": "526a9512605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:34,035] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251/commands,                params = None,                body = {'commands': [{'code': 'switch_led', 'value': True}]},                t = 1668018514035
+[2022-11-09 23:58:34,210] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018515676,
+  "tid": "5286cf6a605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:34,211] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789/commands,                params = None,                body = {'commands': [{'code': 'switch_1', 'value': True}, {'code': 'bright_value_v2', 'value': 50}, {'code': 'countdown_1', 'value': 10000}]},                t = 1668018514211
+[2022-11-09 23:58:34,344] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018515820,
+  "tid": "529ffc48605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:34,345] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753/commands,                params = None,                body = {'commands': [{'code': 'switch', 'value': True}]},                t = 1668018514345
+[2022-11-09 23:58:34,499] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018515973,
+  "tid": "52b5623f605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:34,500] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789/status,                params = None,                body = None,                t = 1668018514499
+[2022-11-09 23:58:34,638] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "switch_1",
+      "value": true
+    },
+    {
+      "code": "countdown_1",
+      "value": 10000
+    },
+    {
+      "code": "relay_status",
+      "value": "power_on"
+    },
+    {
+      "code": "light_mode",
+      "value": "relay"
+    },
+    {
+      "code": "cycle_time",
+      "value": ""
+    },
+    {
+      "code": "random_time",
+      "value": ""
+    }
+  ],
+  "success": true,
+  "t": 1668018516111,
+  "tid": "52cc3ca9605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:34,638] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251/status,                params = None,                body = None,                t = 1668018514638
+[2022-11-09 23:58:34,768] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "switch_led",
+      "value": true
+    },
+    {
+      "code": "work_mode",
+      "value": "white"
+    },
+    {
+      "code": "bright_value_v2",
+      "value": 299
+    },
+    {
+      "code": "temp_value_v2",
+      "value": 230
+    },
+    {
+      "code": "colour_data_v2",
+      "value": ""
+    },
+    {
+      "code": "scene_data_v2",
+      "value": ""
+    },
+    {
+      "code": "countdown_1",
+      "value": 38102
+    },
+    {
+      "code": "music_data",
+      "value": ""
+    },
+    {
+      "code": "control_data",
+      "value": ""
+    },
+    {
+      "code": "rhythm_mode",
+      "value": ""
+    },
+    {
+      "code": "sleep_mode",
+      "value": ""
+    },
+    {
+      "code": "wakeup_mode",
+      "value": ""
+    },
+    {
+      "code": "power_memory",
+      "value": ""
+    },
+    {
+      "code": "do_not_disturb",
+      "value": false
+    }
+  ],
+  "success": true,
+  "t": 1668018516241,
+  "tid": "52e0d59a605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:34,769] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753/status,                params = None,                body = None,                t = 1668018514769
+[2022-11-09 23:58:34,893] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "forward_energy_total",
+      "value": 999999999
+    },
+    {
+      "code": "phase_a",
+      "value": ""
+    },
+    {
+      "code": "phase_b",
+      "value": ""
+    },
+    {
+      "code": "phase_c",
+      "value": ""
+    },
+    {
+      "code": "switch",
+      "value": true
+    },
+    {
+      "code": "meter_id",
+      "value": ""
+    }
+  ],
+  "success": true,
+  "t": 1668018516367,
+  "tid": "52f3eb3e605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:34,893] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166782136188789,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018514893
+[2022-11-09 23:58:35,009] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018516483,
+  "tid": "53093d7e605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:35,009] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166782120811251,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018515009
+[2022-11-09 23:58:35,147] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018516606,
+  "tid": "531b977c605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:35,148] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166792460706753,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018515148
+[2022-11-09 23:58:35,251] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018516724,
+  "tid": "532decc9605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:45,394] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/token,                params = {'grant_type': 1},                body = None,                t = 1668018525394
+[2022-11-09 23:58:46,049] [tuya-openapi] Response: {
+  "result": {
+    "access_token": "***",
+    "expire_time": 7149,
+    "refresh_token": "***",
+    "uid": "***"
+  },
+  "success": true,
+  "t": 1668018527531,
+  "tid": "599f7fc7605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:46,049] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789,                params = None,                body = None,                t = 1668018526049
+[2022-11-09 23:58:46,221] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667821361,
+    "asset_id": "1552327524515859",
+    "category": "kg",
+    "category_name": "Switch",
+    "create_time": 1667821361,
+    "gateway_id": "",
+    "icon": "smart/icon/ay1554274150473hFGR1/e7dad6337d487be637f0b81cb0dc2d55.png",
+    "id": "vdevo166782136188789",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "CBU",
+    "name": "\u56fd\u6807\u4e00\u8def\u5f00\u5173\uff08\u89e6\u6478\uff09_Wi-Fi & Bluetooth LE-vdevo",
+    "online": true,
+    "product_id": "iuhozr9ciqbvswp8",
+    "product_name": "\u56fd\u6807\u4e00\u8def\u5f00\u5173\uff08\u89e6\u6478\uff09_Wi-Fi & Bluetooth LE",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667821361,
+    "uuid": "vdevo166782136188789"
+  },
+  "success": true,
+  "t": 1668018527702,
+  "tid": "59af8357605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:46,221] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251,                params = None,                body = None,                t = 1668018526221
+[2022-11-09 23:58:46,362] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667821208,
+    "asset_id": "1552327524515859",
+    "category": "dj",
+    "category_name": "Light Source",
+    "create_time": 1667821208,
+    "gateway_id": "",
+    "icon": "smart/icon/ay1530625888062OnLeq/8849decc9496f5b66ce3eabc8a65c7a7.png",
+    "id": "vdevo166782120811251",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "DY.0785",
+    "name": "Smart BR30 Light-vdevo",
+    "online": true,
+    "product_id": "zmy2tgh7ei9v0tvw",
+    "product_name": "Smart BR30 Light",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667821208,
+    "uuid": "vdevo166782120811251"
+  },
+  "success": true,
+  "t": 1668018527852,
+  "tid": "59c72e0d605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:46,362] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753,                params = None,                body = None,                t = 1668018526362
+[2022-11-09 23:58:46,534] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667924607,
+    "asset_id": "1552327524515859",
+    "category": "zndb",
+    "category_name": "Smart Electric Meter",
+    "create_time": 1667924607,
+    "gateway_id": "",
+    "icon": "smart/icon/bay1596778962224TATA/0c919bb493800c9bcf563aef7edd9ae4.png",
+    "id": "vdevo166792460706753",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "DAC7360C-CT",
+    "name": "XOCA-\u4e09\u76f8\u4e92\u611f\u5668\u5f0f\u5355\u8d39\u7387\u7535\u80fd\u8868-Zigbee-vdevo",
+    "online": true,
+    "product_id": "f3jpl06s",
+    "product_name": "XOCA-\u4e09\u76f8\u4e92\u611f\u5668\u5f0f\u5355\u8d39\u7387\u7535\u80fd\u8868-Zigbee",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667924607,
+    "uuid": "vdevo166792460706753"
+  },
+  "success": true,
+  "t": 1668018528009,
+  "tid": "59df9810605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:46,534] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251/commands,                params = None,                body = {'commands': [{'code': 'switch_led', 'value': True}]},                t = 1668018526534
+[2022-11-09 23:58:46,659] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018528141,
+  "tid": "59f804a3605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:46,659] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789/commands,                params = None,                body = {'commands': [{'code': 'switch_1', 'value': True}, {'code': 'bright_value_v2', 'value': 50}, {'code': 'countdown_1', 'value': 10000}]},                t = 1668018526659
+[2022-11-09 23:58:46,784] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018528273,
+  "tid": "5a0bd4c0605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:46,784] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753/commands,                params = None,                body = {'commands': [{'code': 'switch', 'value': True}]},                t = 1668018526784
+[2022-11-09 23:58:46,909] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018528401,
+  "tid": "5a1fb60b605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:46,924] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789/status,                params = None,                body = None,                t = 1668018526924
+[2022-11-09 23:58:47,038] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "switch_1",
+      "value": true
+    },
+    {
+      "code": "countdown_1",
+      "value": 10000
+    },
+    {
+      "code": "relay_status",
+      "value": "power_on"
+    },
+    {
+      "code": "light_mode",
+      "value": "relay"
+    },
+    {
+      "code": "cycle_time",
+      "value": ""
+    },
+    {
+      "code": "random_time",
+      "value": ""
+    }
+  ],
+  "success": true,
+  "t": 1668018528526,
+  "tid": "5a320167605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:47,038] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251/status,                params = None,                body = None,                t = 1668018527038
+[2022-11-09 23:58:47,179] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "switch_led",
+      "value": true
+    },
+    {
+      "code": "work_mode",
+      "value": "white"
+    },
+    {
+      "code": "bright_value_v2",
+      "value": 299
+    },
+    {
+      "code": "temp_value_v2",
+      "value": 230
+    },
+    {
+      "code": "colour_data_v2",
+      "value": ""
+    },
+    {
+      "code": "scene_data_v2",
+      "value": ""
+    },
+    {
+      "code": "countdown_1",
+      "value": 38102
+    },
+    {
+      "code": "music_data",
+      "value": ""
+    },
+    {
+      "code": "control_data",
+      "value": ""
+    },
+    {
+      "code": "rhythm_mode",
+      "value": ""
+    },
+    {
+      "code": "sleep_mode",
+      "value": ""
+    },
+    {
+      "code": "wakeup_mode",
+      "value": ""
+    },
+    {
+      "code": "power_memory",
+      "value": ""
+    },
+    {
+      "code": "do_not_disturb",
+      "value": false
+    }
+  ],
+  "success": true,
+  "t": 1668018528668,
+  "tid": "5a48dd80605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:47,179] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753/status,                params = None,                body = None,                t = 1668018527179
+[2022-11-09 23:58:47,319] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "forward_energy_total",
+      "value": 999999999
+    },
+    {
+      "code": "phase_a",
+      "value": ""
+    },
+    {
+      "code": "phase_b",
+      "value": ""
+    },
+    {
+      "code": "phase_c",
+      "value": ""
+    },
+    {
+      "code": "switch",
+      "value": true
+    },
+    {
+      "code": "meter_id",
+      "value": ""
+    }
+  ],
+  "success": true,
+  "t": 1668018528798,
+  "tid": "5a5cab4c605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:47,319] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166782136188789,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018527319
+[2022-11-09 23:58:47,413] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018528905,
+  "tid": "5a709138605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:47,413] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166782120811251,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018527413
+[2022-11-09 23:58:47,523] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018529005,
+  "tid": "5a7fcfdf605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:47,523] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166792460706753,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018527523
+[2022-11-09 23:58:47,648] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018529123,
+  "tid": "5a921f58605c11edbbfd6abc89a7041d"
+}
+{"date_time": "2022-11-09T23:58:57.803912", "data": [26]}
+[2022-11-09 23:58:57,803] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/token,                params = {'grant_type': 1},                body = None,                t = 1668018537803
+[2022-11-09 23:58:58,613] [tuya-openapi] Response: {
+  "result": {
+    "access_token": "***",
+    "expire_time": 7136,
+    "refresh_token": "***",
+    "uid": "***"
+  },
+  "success": true,
+  "t": 1668018540086,
+  "tid": "61199cef605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:58,614] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789,                params = None,                body = None,                t = 1668018538614
+[2022-11-09 23:58:58,792] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667821361,
+    "asset_id": "1552327524515859",
+    "category": "kg",
+    "category_name": "Switch",
+    "create_time": 1667821361,
+    "gateway_id": "",
+    "icon": "smart/icon/ay1554274150473hFGR1/e7dad6337d487be637f0b81cb0dc2d55.png",
+    "id": "vdevo166782136188789",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "CBU",
+    "name": "\u56fd\u6807\u4e00\u8def\u5f00\u5173\uff08\u89e6\u6478\uff09_Wi-Fi & Bluetooth LE-vdevo",
+    "online": true,
+    "product_id": "iuhozr9ciqbvswp8",
+    "product_name": "\u56fd\u6807\u4e00\u8def\u5f00\u5173\uff08\u89e6\u6478\uff09_Wi-Fi & Bluetooth LE",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667821361,
+    "uuid": "vdevo166782136188789"
+  },
+  "success": true,
+  "t": 1668018540271,
+  "tid": "612d7dac605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:58,792] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251,                params = None,                body = None,                t = 1668018538792
+[2022-11-09 23:58:58,942] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667821208,
+    "asset_id": "1552327524515859",
+    "category": "dj",
+    "category_name": "Light Source",
+    "create_time": 1667821208,
+    "gateway_id": "",
+    "icon": "smart/icon/ay1530625888062OnLeq/8849decc9496f5b66ce3eabc8a65c7a7.png",
+    "id": "vdevo166782120811251",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "DY.0785",
+    "name": "Smart BR30 Light-vdevo",
+    "online": true,
+    "product_id": "zmy2tgh7ei9v0tvw",
+    "product_name": "Smart BR30 Light",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667821208,
+    "uuid": "vdevo166782120811251"
+  },
+  "success": true,
+  "t": 1668018540430,
+  "tid": "61475d16605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:58,942] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753,                params = None,                body = None,                t = 1668018538942
+[2022-11-09 23:58:59,106] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667924607,
+    "asset_id": "1552327524515859",
+    "category": "zndb",
+    "category_name": "Smart Electric Meter",
+    "create_time": 1667924607,
+    "gateway_id": "",
+    "icon": "smart/icon/bay1596778962224TATA/0c919bb493800c9bcf563aef7edd9ae4.png",
+    "id": "vdevo166792460706753",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "DAC7360C-CT",
+    "name": "XOCA-\u4e09\u76f8\u4e92\u611f\u5668\u5f0f\u5355\u8d39\u7387\u7535\u80fd\u8868-Zigbee-vdevo",
+    "online": true,
+    "product_id": "f3jpl06s",
+    "product_name": "XOCA-\u4e09\u76f8\u4e92\u611f\u5668\u5f0f\u5355\u8d39\u7387\u7535\u80fd\u8868-Zigbee",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667924607,
+    "uuid": "vdevo166792460706753"
+  },
+  "success": true,
+  "t": 1668018540592,
+  "tid": "615f0515605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:59,106] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251/commands,                params = None,                body = {'commands': [{'code': 'switch_led', 'value': True}]},                t = 1668018539106
+[2022-11-09 23:58:59,242] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018540727,
+  "tid": "617831d4605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:59,242] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789/commands,                params = None,                body = {'commands': [{'code': 'switch_1', 'value': True}, {'code': 'bright_value_v2', 'value': 50}, {'code': 'countdown_1', 'value': 10000}]},                t = 1668018539242
+[2022-11-09 23:58:59,375] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018540867,
+  "tid": "618d94e8605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:59,375] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753/commands,                params = None,                body = {'commands': [{'code': 'switch', 'value': True}]},                t = 1668018539375
+[2022-11-09 23:58:59,525] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018541006,
+  "tid": "61a2f339605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:59,525] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789/status,                params = None,                body = None,                t = 1668018539525
+[2022-11-09 23:58:59,660] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "switch_1",
+      "value": true
+    },
+    {
+      "code": "countdown_1",
+      "value": 10000
+    },
+    {
+      "code": "relay_status",
+      "value": "power_on"
+    },
+    {
+      "code": "light_mode",
+      "value": "relay"
+    },
+    {
+      "code": "cycle_time",
+      "value": ""
+    },
+    {
+      "code": "random_time",
+      "value": ""
+    }
+  ],
+  "success": true,
+  "t": 1668018541136,
+  "tid": "61b7a256605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:59,660] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251/status,                params = None,                body = None,                t = 1668018539660
+[2022-11-09 23:58:59,775] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "switch_led",
+      "value": true
+    },
+    {
+      "code": "work_mode",
+      "value": "white"
+    },
+    {
+      "code": "bright_value_v2",
+      "value": 299
+    },
+    {
+      "code": "temp_value_v2",
+      "value": 230
+    },
+    {
+      "code": "colour_data_v2",
+      "value": ""
+    },
+    {
+      "code": "scene_data_v2",
+      "value": ""
+    },
+    {
+      "code": "countdown_1",
+      "value": 38102
+    },
+    {
+      "code": "music_data",
+      "value": ""
+    },
+    {
+      "code": "control_data",
+      "value": ""
+    },
+    {
+      "code": "rhythm_mode",
+      "value": ""
+    },
+    {
+      "code": "sleep_mode",
+      "value": ""
+    },
+    {
+      "code": "wakeup_mode",
+      "value": ""
+    },
+    {
+      "code": "power_memory",
+      "value": ""
+    },
+    {
+      "code": "do_not_disturb",
+      "value": false
+    }
+  ],
+  "success": true,
+  "t": 1668018541257,
+  "tid": "61c9d7cc605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:58:59,775] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753/status,                params = None,                body = None,                t = 1668018539775
+[2022-11-09 23:58:59,911] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "forward_energy_total",
+      "value": 999999999
+    },
+    {
+      "code": "phase_a",
+      "value": ""
+    },
+    {
+      "code": "phase_b",
+      "value": ""
+    },
+    {
+      "code": "phase_c",
+      "value": ""
+    },
+    {
+      "code": "switch",
+      "value": true
+    },
+    {
+      "code": "meter_id",
+      "value": ""
+    }
+  ],
+  "success": true,
+  "t": 1668018541400,
+  "tid": "61df3840605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:58:59,911] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166782136188789,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018539911
+[2022-11-09 23:59:00,010] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018541498,
+  "tid": "61f17d1d605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:59:00,010] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166782120811251,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018540010
+[2022-11-09 23:59:00,127] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018541604,
+  "tid": "62024f25605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:59:00,127] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166792460706753,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018540127
+[2022-11-09 23:59:00,244] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018541726,
+  "tid": "62149ca8605c11ed9d06f6d568c328b4"
+}
+{"date_time": "2022-11-09T23:59:10.390229", "data": [33]}
+[2022-11-09 23:59:10,390] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/token,                params = {'grant_type': 1},                body = None,                t = 1668018550390
+[2022-11-09 23:59:10,748] [tuya-openapi] Response: {
+  "result": {
+    "access_token": "***",
+    "expire_time": 7124,
+    "refresh_token": "***",
+    "uid": "***"
+  },
+  "success": true,
+  "t": 1668018552227,
+  "tid": "68585270605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:59:10,748] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789,                params = None,                body = None,                t = 1668018550748
+[2022-11-09 23:59:10,892] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667821361,
+    "asset_id": "1552327524515859",
+    "category": "kg",
+    "category_name": "Switch",
+    "create_time": 1667821361,
+    "gateway_id": "",
+    "icon": "smart/icon/ay1554274150473hFGR1/e7dad6337d487be637f0b81cb0dc2d55.png",
+    "id": "vdevo166782136188789",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "CBU",
+    "name": "\u56fd\u6807\u4e00\u8def\u5f00\u5173\uff08\u89e6\u6478\uff09_Wi-Fi & Bluetooth LE-vdevo",
+    "online": true,
+    "product_id": "iuhozr9ciqbvswp8",
+    "product_name": "\u56fd\u6807\u4e00\u8def\u5f00\u5173\uff08\u89e6\u6478\uff09_Wi-Fi & Bluetooth LE",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667821361,
+    "uuid": "vdevo166782136188789"
+  },
+  "success": true,
+  "t": 1668018552376,
+  "tid": "68660ac0605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:59:10,892] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251,                params = None,                body = None,                t = 1668018550892
+[2022-11-09 23:59:11,053] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667821208,
+    "asset_id": "1552327524515859",
+    "category": "dj",
+    "category_name": "Light Source",
+    "create_time": 1667821208,
+    "gateway_id": "",
+    "icon": "smart/icon/ay1530625888062OnLeq/8849decc9496f5b66ce3eabc8a65c7a7.png",
+    "id": "vdevo166782120811251",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "DY.0785",
+    "name": "Smart BR30 Light-vdevo",
+    "online": true,
+    "product_id": "zmy2tgh7ei9v0tvw",
+    "product_name": "Smart BR30 Light",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667821208,
+    "uuid": "vdevo166782120811251"
+  },
+  "success": true,
+  "t": 1668018552532,
+  "tid": "687ce8ac605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:59:11,053] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753,                params = None,                body = None,                t = 1668018551053
+[2022-11-09 23:59:11,241] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667924607,
+    "asset_id": "1552327524515859",
+    "category": "zndb",
+    "category_name": "Smart Electric Meter",
+    "create_time": 1667924607,
+    "gateway_id": "",
+    "icon": "smart/icon/bay1596778962224TATA/0c919bb493800c9bcf563aef7edd9ae4.png",
+    "id": "vdevo166792460706753",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "DAC7360C-CT",
+    "name": "XOCA-\u4e09\u76f8\u4e92\u611f\u5668\u5f0f\u5355\u8d39\u7387\u7535\u80fd\u8868-Zigbee-vdevo",
+    "online": true,
+    "product_id": "f3jpl06s",
+    "product_name": "XOCA-\u4e09\u76f8\u4e92\u611f\u5668\u5f0f\u5355\u8d39\u7387\u7535\u80fd\u8868-Zigbee",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667924607,
+    "uuid": "vdevo166792460706753"
+  },
+  "success": true,
+  "t": 1668018552711,
+  "tid": "68986ae4605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:59:11,243] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251/commands,                params = None,                body = {'commands': [{'code': 'switch_led', 'value': True}]},                t = 1668018551243
+[2022-11-09 23:59:11,360] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018552840,
+  "tid": "68b0cc82605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:59:11,360] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789/commands,                params = None,                body = {'commands': [{'code': 'switch_1', 'value': True}, {'code': 'bright_value_v2', 'value': 50}, {'code': 'countdown_1', 'value': 10000}]},                t = 1668018551360
+[2022-11-09 23:59:11,491] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018552972,
+  "tid": "68c4a9bb605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:59:11,491] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753/commands,                params = None,                body = {'commands': [{'code': 'switch', 'value': True}]},                t = 1668018551491
+[2022-11-09 23:59:11,626] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018553114,
+  "tid": "68d9ffbd605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:59:11,626] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789/status,                params = None,                body = None,                t = 1668018551626
+[2022-11-09 23:59:11,774] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "switch_1",
+      "value": true
+    },
+    {
+      "code": "countdown_1",
+      "value": 10000
+    },
+    {
+      "code": "relay_status",
+      "value": "power_on"
+    },
+    {
+      "code": "light_mode",
+      "value": "relay"
+    },
+    {
+      "code": "cycle_time",
+      "value": ""
+    },
+    {
+      "code": "random_time",
+      "value": ""
+    }
+  ],
+  "success": true,
+  "t": 1668018553256,
+  "tid": "68f0dd52605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:59:11,774] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251/status,                params = None,                body = None,                t = 1668018551774
+[2022-11-09 23:59:11,901] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "switch_led",
+      "value": true
+    },
+    {
+      "code": "work_mode",
+      "value": "white"
+    },
+    {
+      "code": "bright_value_v2",
+      "value": 299
+    },
+    {
+      "code": "temp_value_v2",
+      "value": 230
+    },
+    {
+      "code": "colour_data_v2",
+      "value": ""
+    },
+    {
+      "code": "scene_data_v2",
+      "value": ""
+    },
+    {
+      "code": "countdown_1",
+      "value": 38102
+    },
+    {
+      "code": "music_data",
+      "value": ""
+    },
+    {
+      "code": "control_data",
+      "value": ""
+    },
+    {
+      "code": "rhythm_mode",
+      "value": ""
+    },
+    {
+      "code": "sleep_mode",
+      "value": ""
+    },
+    {
+      "code": "wakeup_mode",
+      "value": ""
+    },
+    {
+      "code": "power_memory",
+      "value": ""
+    },
+    {
+      "code": "do_not_disturb",
+      "value": false
+    }
+  ],
+  "success": true,
+  "t": 1668018553376,
+  "tid": "6903312a605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:59:11,901] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753/status,                params = None,                body = None,                t = 1668018551901
+[2022-11-09 23:59:12,010] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "forward_energy_total",
+      "value": 999999999
+    },
+    {
+      "code": "phase_a",
+      "value": ""
+    },
+    {
+      "code": "phase_b",
+      "value": ""
+    },
+    {
+      "code": "phase_c",
+      "value": ""
+    },
+    {
+      "code": "switch",
+      "value": true
+    },
+    {
+      "code": "meter_id",
+      "value": ""
+    }
+  ],
+  "success": true,
+  "t": 1668018553495,
+  "tid": "6915761f605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:59:12,010] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166782136188789,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018552010
+[2022-11-09 23:59:12,117] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018553593,
+  "tid": "6927d148605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:59:12,117] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166782120811251,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018552117
+[2022-11-09 23:59:12,205] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018553695,
+  "tid": "693708e3605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:59:12,205] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166792460706753,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018552205
+[2022-11-09 23:59:12,309] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018553795,
+  "tid": "69465a96605c11ed9d06f6d568c328b4"
+}
+{"date_time": "2022-11-09T23:59:22.461377", "data": [71]}
+[2022-11-09 23:59:22,461] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/token,                params = {'grant_type': 1},                body = None,                t = 1668018562461
+[2022-11-09 23:59:23,103] [tuya-openapi] Response: {
+  "result": {
+    "access_token": "***",
+    "expire_time": 7112,
+    "refresh_token": "***",
+    "uid": "***"
+  },
+  "success": true,
+  "t": 1668018564590,
+  "tid": "6fb65cca605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:59:23,103] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789,                params = None,                body = None,                t = 1668018563103
+[2022-11-09 23:59:23,290] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667821361,
+    "asset_id": "1552327524515859",
+    "category": "kg",
+    "category_name": "Switch",
+    "create_time": 1667821361,
+    "gateway_id": "",
+    "icon": "smart/icon/ay1554274150473hFGR1/e7dad6337d487be637f0b81cb0dc2d55.png",
+    "id": "vdevo166782136188789",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "CBU",
+    "name": "\u56fd\u6807\u4e00\u8def\u5f00\u5173\uff08\u89e6\u6478\uff09_Wi-Fi & Bluetooth LE-vdevo",
+    "online": true,
+    "product_id": "iuhozr9ciqbvswp8",
+    "product_name": "\u56fd\u6807\u4e00\u8def\u5f00\u5173\uff08\u89e6\u6478\uff09_Wi-Fi & Bluetooth LE",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667821361,
+    "uuid": "vdevo166782136188789"
+  },
+  "success": true,
+  "t": 1668018564773,
+  "tid": "6fc8a1b3605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:59:23,290] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251,                params = None,                body = None,                t = 1668018563290
+[2022-11-09 23:59:23,854] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667821208,
+    "asset_id": "1552327524515859",
+    "category": "dj",
+    "category_name": "Light Source",
+    "create_time": 1667821208,
+    "gateway_id": "",
+    "icon": "smart/icon/ay1530625888062OnLeq/8849decc9496f5b66ce3eabc8a65c7a7.png",
+    "id": "vdevo166782120811251",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "DY.0785",
+    "name": "Smart BR30 Light-vdevo",
+    "online": true,
+    "product_id": "zmy2tgh7ei9v0tvw",
+    "product_name": "Smart BR30 Light",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667821208,
+    "uuid": "vdevo166782120811251"
+  },
+  "success": true,
+  "t": 1668018565327,
+  "tid": "701e1b87605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:59:23,854] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753,                params = None,                body = None,                t = 1668018563854
+[2022-11-09 23:59:24,038] [tuya-openapi] Response: {
+  "result": {
+    "active_time": 1667924607,
+    "asset_id": "1552327524515859",
+    "category": "zndb",
+    "category_name": "Smart Electric Meter",
+    "create_time": 1667924607,
+    "gateway_id": "",
+    "icon": "smart/icon/bay1596778962224TATA/0c919bb493800c9bcf563aef7edd9ae4.png",
+    "id": "vdevo166792460706753",
+    "ip": "***",
+    "lat": "***",
+    "local_key": "***",
+    "lon": "***",
+    "model": "DAC7360C-CT",
+    "name": "XOCA-\u4e09\u76f8\u4e92\u611f\u5668\u5f0f\u5355\u8d39\u7387\u7535\u80fd\u8868-Zigbee-vdevo",
+    "online": true,
+    "product_id": "f3jpl06s",
+    "product_name": "XOCA-\u4e09\u76f8\u4e92\u611f\u5668\u5f0f\u5355\u8d39\u7387\u7535\u80fd\u8868-Zigbee",
+    "sub": false,
+    "time_zone": "+08:00",
+    "update_time": 1667924607,
+    "uuid": "vdevo166792460706753"
+  },
+  "success": true,
+  "t": 1668018565514,
+  "tid": "70399514605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:59:24,038] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251/commands,                params = None,                body = {'commands': [{'code': 'switch_led', 'value': True}]},                t = 1668018564038
+[2022-11-09 23:59:24,158] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018565642,
+  "tid": "70520bcb605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:59:24,158] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789/commands,                params = None,                body = {'commands': [{'code': 'switch_1', 'value': True}, {'code': 'bright_value_v2', 'value': 50}, {'code': 'countdown_1', 'value': 10000}]},                t = 1668018564158
+[2022-11-09 23:59:24,306] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018565782,
+  "tid": "7067515c605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:59:24,306] [tuya-openapi] Request: method = POST,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753/commands,                params = None,                body = {'commands': [{'code': 'switch', 'value': True}]},                t = 1668018564306
+[2022-11-09 23:59:24,425] [tuya-openapi] Response: {
+  "result": true,
+  "success": true,
+  "t": 1668018565903,
+  "tid": "7079a590605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:59:24,425] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782136188789/status,                params = None,                body = None,                t = 1668018564425
+[2022-11-09 23:59:24,558] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "switch_1",
+      "value": true
+    },
+    {
+      "code": "countdown_1",
+      "value": 10000
+    },
+    {
+      "code": "relay_status",
+      "value": "power_on"
+    },
+    {
+      "code": "light_mode",
+      "value": "relay"
+    },
+    {
+      "code": "cycle_time",
+      "value": ""
+    },
+    {
+      "code": "random_time",
+      "value": ""
+    }
+  ],
+  "success": true,
+  "t": 1668018566042,
+  "tid": "708f02a6605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:59:24,558] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166782120811251/status,                params = None,                body = None,                t = 1668018564558
+[2022-11-09 23:59:24,675] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "switch_led",
+      "value": true
+    },
+    {
+      "code": "work_mode",
+      "value": "white"
+    },
+    {
+      "code": "bright_value_v2",
+      "value": 299
+    },
+    {
+      "code": "temp_value_v2",
+      "value": 230
+    },
+    {
+      "code": "colour_data_v2",
+      "value": ""
+    },
+    {
+      "code": "scene_data_v2",
+      "value": ""
+    },
+    {
+      "code": "countdown_1",
+      "value": 38102
+    },
+    {
+      "code": "music_data",
+      "value": ""
+    },
+    {
+      "code": "control_data",
+      "value": ""
+    },
+    {
+      "code": "rhythm_mode",
+      "value": ""
+    },
+    {
+      "code": "sleep_mode",
+      "value": ""
+    },
+    {
+      "code": "wakeup_mode",
+      "value": ""
+    },
+    {
+      "code": "power_memory",
+      "value": ""
+    },
+    {
+      "code": "do_not_disturb",
+      "value": false
+    }
+  ],
+  "success": true,
+  "t": 1668018566157,
+  "tid": "70a1530d605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:59:24,675] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/devices/vdevo166792460706753/status,                params = None,                body = None,                t = 1668018564675
+[2022-11-09 23:59:24,804] [tuya-openapi] Response: {
+  "result": [
+    {
+      "code": "forward_energy_total",
+      "value": 999999999
+    },
+    {
+      "code": "phase_a",
+      "value": ""
+    },
+    {
+      "code": "phase_b",
+      "value": ""
+    },
+    {
+      "code": "phase_c",
+      "value": ""
+    },
+    {
+      "code": "switch",
+      "value": true
+    },
+    {
+      "code": "meter_id",
+      "value": ""
+    }
+  ],
+  "success": true,
+  "t": 1668018566279,
+  "tid": "70b3a97b605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:59:24,805] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166782136188789,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018564805
+[2022-11-09 23:59:24,912] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018566374,
+  "tid": "70c5ebb4605c11ed9d06f6d568c328b4"
+}
+[2022-11-09 23:59:24,913] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166782120811251,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018564913
+[2022-11-09 23:59:25,064] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018566494,
+  "tid": "70d8451c605c11edbbfd6abc89a7041d"
+}
+[2022-11-09 23:59:25,065] [tuya-openapi] Request: method = GET,                 url = https://openapi.tuyain.com/v1.0/iot-03/energy/electricity/device/nodes/statistics-sum?contain_childs=false&device_ids=vdevo166792460706753,&end_time=2022110820&energy_action=consume&start_time=2022110720&statistics_type=hour,                params = None,                body = None,                t = 1668018565065
+[2022-11-09 23:59:25,159] [tuya-openapi] Response: {
+  "result": 0,
+  "success": true,
+  "t": 1668018566634,
+  "tid": "70ed9ad3605c11ed9d06f6d568c328b4"
+}
