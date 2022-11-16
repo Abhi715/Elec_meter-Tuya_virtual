@@ -1,17 +1,16 @@
 import sys
-import pymodbus
-from datetime import datetime, time
-import random
-from pymodbus.pdu import ModbusRequest
-from pymodbus.client import ModbusSerialClient as ModbusClient
 import time
 import json
+import random
 import logging
+import pymodbus
+from datetime import datetime, time
+from pymodbus.pdu import ModbusRequest
 from tuya_connector import TuyaOpenAPI, TUYA_LOGGER
+from pymodbus.client import ModbusSerialClient as ModbusClient
+
 
 # date and time function
-
-
 def current_time():
     """return the current time nad date"""
     now = datetime.now().isoformat()
